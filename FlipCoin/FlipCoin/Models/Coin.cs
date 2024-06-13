@@ -16,10 +16,10 @@ namespace FlipCoin.Models
             
         }
 
-        public string Jogar()
+        public void Jogar()
         {
-            LadoSorteado = new Random().Next(2) == 0 ? "Cara" : "Coroa";
-            return (LadoSorteado);
+            LadoSorteado = new Random().Next(2) == 0 ? "cara" : "coroa";
+            
         }
     }
 }
