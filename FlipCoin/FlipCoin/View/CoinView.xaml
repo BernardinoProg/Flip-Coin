@@ -21,6 +21,7 @@
         </Picker>
         <Button
             Text="Gire a moeda"
-                Command="{Binding Escolha}"/>
+            Command="{Binding JogarCommand}"
+            />
     </VerticalStackLayout>
 </ContentPage>
